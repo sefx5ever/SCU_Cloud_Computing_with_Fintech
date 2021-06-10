@@ -1,7 +1,7 @@
 # Cloud Computing X Fintech
 
 ## Overview
-The Cloud Computing X Fintech was my first lesson that being a teaching assistance to provide 6 lesson about the introduction and the implementation of cloud computing in Soochow University.
+The Cloud Computing X Fintech was my first lesson that being teaching assistance to provide 6 lessons about the introduction and the implementation of cloud computing at Soochow University.
 
 ## Lessons Learned
 #### The introduction of cloud computing and its trend [LINK]()
