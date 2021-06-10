@@ -38,5 +38,5 @@ The Cloud Computing X Fintech was my first lesson that being teaching assistance
 * Create a Dockerfile then deploy on Amazon EC2
 
 ## Others
-[Course syllabus](http://doc.sys.scu.edu.tw/teachplanHtml/1092/1092BDM21301.html)
-[Deploy a Flask App on Amazon EC2](https://drive.google.com/drive/folders/1b6cP66uS9s90mAbucHbZMcxP6t-LmzHf?usp=sharing)
+* [Course syllabus](http://doc.sys.scu.edu.tw/teachplanHtml/1092/1092BDM21301.html)
+* [Deploy a Flask App on Amazon EC2](https://drive.google.com/drive/folders/1b6cP66uS9s90mAbucHbZMcxP6t-LmzHf?usp=sharing)
