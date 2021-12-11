@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="http://aws-educate-team-scu-card.s3-website-us-east-1.amazonaws.com/AWS-Educate-Team-SCU-Logo.PNG">
+    <title>AWS Educate Team SCU Program</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            right: 50%;
+            bottom: 50%;
+            transform: translate(50%,50%);
+            position: absolute;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main>img {
+            width: 15%;
+        }
+
+        .main-layout {
+            width: 50%;
+        }
+
+        .main-layout>div {
+            margin-top: 1%;
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: x-large;
+            font-weight: bolder;
+            font-family: sans-serif;
+        }
+
+        .main-desp {
+            font-size: medium;
+        }
+
+        .main-cta {
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+            padding: .5em 1em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .main-cta-sub {
+            line-height:15px;
+        }
+
+        .main-cta-sub-link {
+            display: inline;
+            margin-left: 1%;
+        }
+
+        .main-cta-sub-link>img {
+            width: 5%;
+            vertical-align: sub;
+        }
+
+        .main-cta-sub-link,
+        .main-cta-sub-text {
+            text-decoration: none;
+        }
+
+        .main-ad {
+            text-align: right;
+            font-size: small;
+        }
+
+        @media screen and (max-width: 1300px) {
+            .main-layout {
+                width: 80%;
+            }
+
+            .main-cta {
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                text-align: left;
+            }
+
+            .main-cta-sub {
+                margin-bottom: 1%;
+            }
+
+            .main-cta-sub-link>img {
+                width: 5%;
+                vertical-align: sub;
+            }
+        }
+
+        @media screen and (max-width: 1300px) {
+            .main-title {
+                font-size: large;
+            }
+
+            .main-desp {
+                font-size: small;
+            }
+
+            .main-ad {
+                font-size: smaller;
+            }
+        }
+    </style>
+    <div class="main">
+        <img src="http://aws-educate-team-scu-card.s3-website-us-east-1.amazonaws.com/AWS-Educate-Team-SCU-Logo.PNG">
+        <div class="main-layout">
+            <div class="main-title">Welcome to AWS Educate Team SCU</div>
+            <div class="main-desp">
+                Amazon Web Serives (AWS) 是亞馬遜從事雲端產業的子公司，是全球全面和廣泛採納的雲端平台，透過全球資料中心提供超過 175 項完整的服務。AWS Educate Team SCU 社群主要提供四大服務，即工作坊活動、課程導入服務、YouTube 微課程及咨詢小組，由東吳巨資學生團隊維持營運（Team SCU 教學團隊）。
+            </div>
+            <div class="main-cta">
+                <div class="main-cta-sub">
+                    <a class="main-cta-sub-link" href="https://bit.ly/3jP0GsA">
+                        <img src="https://aws-educate-team-scu-card.s3.amazonaws.com/facebook.png" alt="Facebook Icon">
+                    </a>
+                    <a class="main-cta-sub-text" href="https://bit.ly/3jP0GsA">AWS Educate Team SCU LINE 粉絲專頁</a>
+                </div>
+                <div class="main-cta-sub">
+                    <a class="main-cta-sub-link" href="https://bit.ly/2Uxrmni">
+                        <img src="https://aws-educate-team-scu-card.s3.amazonaws.com/line.png" alt="LINE Icon">
+                    </a>
+                    <a class="main-cta-sub-text" href="https://bit.ly/2Uxrmni">AWS Educate Team SCU Facebook 社群</a>
+                </div>
+            </div>
+            <div class="main-ad">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>    
+            <div class="main-ad">AWS Educate Team SCU Program © 2020 - 2021</div>
+        </div>
+    </div>
+</body>
+</html>
